@@ -1,0 +1,12 @@
+User-agent: *
+
+Allow: /index.html
+Allow: /kisters.html
+Allow: /sixense-a-dinsar.html
+Allow: /contato.html
+Allow: /contato.html
+Allow: /nossos-servicos/willowstick.html
+Allow: /nossos-servicos/reutech-mining.html
+Allow: /nossos-servicos/portfolio-de-servicos.html
+
+Disallow: /canal-de-denuncia.html

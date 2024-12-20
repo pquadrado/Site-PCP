@@ -103,7 +103,6 @@
   color: #fff;
   -webkit-text-fill-color: inherit;
   background-color: #dfac1500;
-  background-image: linear-gradient(#0000, #0000);
   background-clip: border-box;
 }
 
@@ -299,7 +298,6 @@
 }
 
 .background-video-2 {
-  background-image: linear-gradient(#00000080, #00000080);
   height: 970px;
 }
 
@@ -332,6 +330,7 @@
   font-family: Montserrat, sans-serif;
   font-size: 16px;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .hero-form {
@@ -446,9 +445,11 @@
 
 .hero-heading-right {
   background-color: #f5f7fa;
-  background-image: linear-gradient(#00000080, #00000080), url('../images/paredão.png');
+  background-image: linear-gradient(#00000060, #00000060), url('../images/paredão.png');
   background-position: 0 0, 50% 100%;
-  background-size: auto, cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
   background-attachment: scroll, fixed;
   border-bottom: 1px solid #e4ebf3;
   height: 900px;
@@ -540,7 +541,7 @@
   width: 750px;
   margin-top: 30px;
   font-family: Montserrat, sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 25px;
 }
 
@@ -675,7 +676,6 @@
 }
 
 .background-video-6 {
-  background-image: linear-gradient(#00000080, #00000080);
   height: 970px;
 }
 
@@ -708,15 +708,16 @@
 
 .hero-heading-left-2 {
   background-color: #f5f7fa;
-  background-image: linear-gradient(#00000080, #00000080), url('../images/Vertedouro-da-UHE-de-Tucuruí-Foto-cortesia-Eletronorte.png');
+  background-image: linear-gradient(#00000060, #00000060), url('../images/Vertedouro-da-UHE-de-Tucuruí-Foto-cortesia-Eletronorte.png');
   background-position: 0 0, 50%;
-  background-size: auto, cover;
+  background-size: cover;
   background-attachment: scroll, fixed;
   border-bottom: 1px solid #e4ebf3;
   height: auto;
   margin-top: -4px;
   padding: 80px 30px;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .container-4 {
@@ -817,7 +818,7 @@
 .hero-heading-right-2 {
   background-color: #fff;
   border: 1px solid #fff;
-  height: 1200px;
+  height: auto;
   padding: 80px 30px;
   position: relative;
   top: 12px;
@@ -1081,7 +1082,6 @@
 
 .div-block-4 {
   background-color: #2bb1c808;
-  background-image: linear-gradient(#00000080, #00000080);
   width: 613px;
   height: 200px;
   margin-top: 213px;
@@ -1859,7 +1859,6 @@
 }
 
 .background-video-8 {
-  background-image: linear-gradient(#00000080, #00000080);
   height: 600px;
 }
 
@@ -2035,6 +2034,8 @@
   justify-content: center;
   align-items: flex-end;
   display: flex;
+  max-width: 750px;
+  gap: 1rem;
 }
 
 .margin-bottom-24px-5 {
@@ -2042,6 +2043,7 @@
   text-align: left;
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
+  font-weight: 600;
 }
 
 .button-primary-6 {
@@ -2203,6 +2205,7 @@
   text-align: left;
   font-family: Montserrat, sans-serif;
   line-height: 24px;
+  font-weight: 600;
 }
 
 .paragraph-10 {
@@ -2232,6 +2235,7 @@
   text-align: right;
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
+  font-weight: 600;
 }
 
 .shadow-two-8 {
@@ -2266,6 +2270,7 @@
   width: 500px;
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
+  font-weight: 600;
 }
 
 .shadow-two-9 {
@@ -2346,10 +2351,11 @@
 }
 
 .margin-bottom-24px-9 {
-  color: #1f5b91;
+  color: #333333;
   text-align: right;
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
+  font-weight: 600;
 }
 
 .shadow-two-11 {
@@ -2426,6 +2432,7 @@
   color: #fff;
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
+  font-weight: 600;
 }
 
 .shadow-two-13 {
@@ -2546,6 +2553,7 @@
   width: 450px;
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
+  font-weight: 600;
 }
 
 .shadow-two-16 {
@@ -2638,11 +2646,13 @@
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .hero-image-2 {
-  width: 100%;
+  width: auto;
   margin-top: 50px;
+  max-width: 125% !important;
 }
 
 .hero-image-2.shadow-two {
@@ -2676,6 +2686,7 @@
 .heading-35 {
   color: #1f5b91;
   text-align: center;
+  font-family: Montserrat, sans-serif;
   margin-top: 90px;
   font-size: 32px;
 }
@@ -2686,6 +2697,7 @@
   margin-top: 30px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .gallery-slider-2 {
@@ -2832,8 +2844,8 @@
   margin-top: 30px;
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
-  font-weight: 600;
   line-height: 28px;
+  font-weight: 600;
 }
 
 .heading-36 {
@@ -2842,6 +2854,7 @@
 
 .heading-37 {
   color: #1f5b91;
+  font-family: Montserrat, sans-serif;
   font-size: 32px;
 }
 
@@ -2870,8 +2883,8 @@
   margin-top: 30px;
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
-  font-weight: 600;
   line-height: 28px;
+  font-weight: 600;
 }
 
 .heading-38 {
@@ -2884,6 +2897,7 @@
   width: 750px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .button-13 {
@@ -2914,6 +2928,7 @@
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .heading-39 {
@@ -2995,14 +3010,12 @@
 
 .cell-2 {
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding-right: 30px;
 }
 
 .cell-3, .cell-4 {
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding-left: 30px;
   padding-right: 30px;
@@ -3258,7 +3271,7 @@
   margin-left: 292px;
   font-family: Montserrat, sans-serif;
   font-size: 25px;
-  font-weight: 100;
+  font-weight: 500;
   position: relative;
   top: -37px;
 }
@@ -3278,6 +3291,7 @@
   width: 750px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .heading-47 {
@@ -3659,6 +3673,7 @@
   font-family: Montserrat, sans-serif;
   line-height: 25px;
   position: static;
+  font-weight: 600;
 }
 
 .team-slider-wrapper-4 {
@@ -3774,12 +3789,14 @@
   background-color: #2bb1c8;
   border-radius: 12px;
   width: 200px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
   font-family: Montserrat, sans-serif;
-  position: relative;
-  top: 50px;
-  left: -339px;
+  text-align: center;
+}
+
+.containerbutton-center{
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-logo-left-2 {
@@ -4093,6 +4110,7 @@
   width: 750px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .hero-heading-left-16 {
@@ -4134,6 +4152,7 @@
   margin-top: -29px;
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
+  font-weight: 600;
 }
 
 .button-primary-10 {
@@ -4162,6 +4181,7 @@
 }
 
 .heading-54 {
+  color: #1f5b91;
   width: 430px;
   margin-left: 0;
   font-size: 24px;
@@ -4257,6 +4277,7 @@
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .button-primary-12 {
@@ -4316,6 +4337,7 @@
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .shadow-two-22 {
@@ -4339,7 +4361,7 @@
 }
 
 .heading-58 {
-  color: #76c231;
+  color: #1f5b91;
   font-size: 20px;
   font-style: normal;
 }
@@ -4349,7 +4371,7 @@
 }
 
 .heading-59 {
-  color: #76c231;
+  color: #1f5b91;
   margin-top: 50px;
   font-size: 20px;
   font-style: normal;
@@ -4360,10 +4382,11 @@
   margin-top: 30px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .heading-60 {
-  color: #76c231;
+  color: #1f5b91;
   margin-top: 50px;
   font-size: 20px;
   font-style: normal;
@@ -4372,10 +4395,11 @@
 .paragraph-23 {
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .hero-without-image-8 {
-  background-color: #76c231;
+  background-color: #1f5b91;
   border-bottom: 1px solid #e4ebf3;
   margin-top: -83px;
   padding: 80px 30px;
@@ -4389,6 +4413,7 @@
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .heading-61 {
@@ -4416,6 +4441,7 @@
 .paragraph-24 {
   color: #fff;
   font-family: Montserrat, sans-serif;
+  font-weight: 600;
 }
 
 .heading-64 {
@@ -4433,7 +4459,7 @@
 
 .heading-66 {
   color: #fff;
-  background-color: #76c231;
+  background-color: #1f5b91;
   width: 250px;
   font-size: 25px;
 }
@@ -4444,6 +4470,7 @@
   margin-top: 30px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .heading-67 {
@@ -4484,7 +4511,7 @@
 }
 
 .hero-heading-left-18 {
-  background-color: #76c231;
+  background-color: #1f5b91;
   border-bottom: 1px solid #e4ebf3;
   margin-top: -3px;
   padding: 80px 30px;
@@ -4495,6 +4522,8 @@
   color: #fff;
   margin-bottom: 24px;
   line-height: 25px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
 }
 
 .heading-69 {
@@ -4511,7 +4540,6 @@
 }
 
 .background-video-9 {
-  background-image: linear-gradient(#00000080, #00000080);
   height: 970px;
 }
 
@@ -4555,6 +4583,7 @@
   font-family: Montserrat, sans-serif;
   font-size: 14px;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .button-primary-13 {
@@ -4625,6 +4654,7 @@
   margin-bottom: 24px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .hero-image-4 {
@@ -4787,6 +4817,7 @@
   margin-top: 15px;
   font-family: Montserrat, sans-serif;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .image-51 {
@@ -4879,7 +4910,6 @@
 }
 
 .div-block-19 {
-  background-color: #000;
   border-radius: 20px;
   margin-top: 25px;
 }
@@ -4897,6 +4927,12 @@
   margin-top: 14px;
   margin-bottom: 20px;
   margin-left: -17px;
+  border: 4px solid #1f5b91;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .services-icon {
@@ -4922,17 +4958,17 @@
 }
 
 .h3-services {
-  color: #fd3e4f;
+  color: #1f5b91;
   font-size: 20px;
   line-height: 25px;
 }
 
 .services-p-small {
-  color: #e1e1e1;
+  color: #333333;
   width: auto;
-  margin-right: 22px;
   padding-top: 15px;
   font-family: Montserrat, sans-serif;
+  font-weight: 600;
 }
 
 .image-56 {
@@ -5527,7 +5563,7 @@
   background-color: #fff0;
   align-items: center;
   min-height: 80px;
-  margin-top: 6px;
+  margin-top: 30px;
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -5679,7 +5715,7 @@
 }
 
 .navbar-link-4.w--current {
-  color: #fff;
+  color: #ffffffb3;
 }
 
 .hero-subscribe-left-3 {
@@ -5807,7 +5843,7 @@
 .hero-stack-8 {
   background-color: #f5f7fa;
   border-bottom: 1px solid #e4ebf3;
-  height: 400px;
+  height: auto;
   margin-top: -94px;
   padding: 80px 30px;
   position: relative;
@@ -5964,6 +6000,7 @@
 .text-span-6 {
   font-family: Montserrat, sans-serif;
   font-size: 14px;
+  font-weight: 600;
 }
 
 .hero-heading-center-6 {
@@ -6185,6 +6222,10 @@
   font-weight: 700;
 }
 
+.text-span-13, .text-span-14{
+  font-size: 17px;
+}
+
 .slide-28 {
   background-image: url('../images/WhatsApp-Image-2024-07-05-at-11.58.14.jpeg');
   background-position: 50%;
@@ -6296,10 +6337,6 @@
   display: flex;
 }
 
-.image-68, .image-69 {
-  border-radius: 20px;
-}
-
 .slide-41 {
   background-image: url('../images/RADAR.jpg');
   background-position: 50% 100%;
@@ -6319,10 +6356,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .background-video-2 {
-    background-image: linear-gradient(#00000080, #00000080);
-  }
-
   .margin-bottom-24px {
     text-align: left;
     margin-top: 30px;
@@ -6501,9 +6534,6 @@
     width: 200px;
     margin-top: 30px;
     font-family: Montserrat, sans-serif;
-    position: relative;
-    top: 31px;
-    left: -333px;
   }
 
   .nav-link-5.w--current {
@@ -6621,7 +6651,7 @@
   }
 
   .heading-58 {
-    color: #76c231;
+    color: #1f5b91;
     font-size: 20px;
     font-style: italic;
     font-weight: 700;
@@ -6632,7 +6662,7 @@
   }
 
   .heading-59 {
-    color: #76c231;
+    color: #1f5b91;
     margin-top: 90px;
     font-size: 20px;
     font-style: italic;
@@ -6645,7 +6675,7 @@
   }
 
   .heading-60 {
-    color: #76c231;
+    color: #1f5b91;
     margin-top: 90px;
     font-size: 20px;
     font-style: italic;
@@ -6665,7 +6695,7 @@
   }
 
   .hero-without-image-8 {
-    background-color: #76c231;
+    background-color: #1f5b91;
   }
 
   .heading-68 {
@@ -6764,10 +6794,6 @@
 
   .navbar-menu {
     min-width: 300px;
-  }
-
-  .navbar-menu-2 {
-    margin-left: 650px;
   }
 
   .hero-without-image-11 {
@@ -6936,6 +6962,11 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin-bottom: -40px;
+  }
+
+  .imagesflag{
+    width: 35px !important;
+    height: auto !important;
   }
 
   .hero-split-3 {
@@ -7805,10 +7836,6 @@
     margin-left: 0;
   }
 
-  .h3-services {
-    margin-left: 44px;
-  }
-
   .image-56 {
     width: 600px;
   }
@@ -8169,7 +8196,7 @@
   }
 
   .hero-heading-center-6 {
-    height: 1100px;
+    height: auto;
   }
 
   .container-41 {
